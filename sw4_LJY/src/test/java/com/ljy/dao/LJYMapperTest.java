@@ -52,5 +52,12 @@ public class LJYMapperTest {
 		
 		
 	}
+	
+	@Test
+	public void testdelete() {
+		log.info("삭제 테스트!!");
+		LJYVO vo = new LJYVO();
+		vo.setCode("A11");
+	}
 
 }

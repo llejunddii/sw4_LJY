@@ -12,6 +12,9 @@ public interface LJYMapper {
 	
 	// 제품 수정
 	int update(LJYVO vo);
+	
+	// 제품 삭제
+	String delete(LJYVO vo);
 
 	
 }
