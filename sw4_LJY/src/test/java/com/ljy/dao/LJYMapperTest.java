@@ -26,8 +26,8 @@ public class LJYMapperTest {
 	public void testinsert() {
 		log.info("데이터 등록 테스트 !!!!!!!!!!!!!");
 		LJYVO vo = new LJYVO();
-		vo.setCode("A06");
-		vo.setPname("나는2테스트");
+		vo.setCode("A08");
+		vo.setPname("나는3테스트");
 		vo.setCost(123);
 		vo.setJnum(157);
 		vo.setSale(1422);

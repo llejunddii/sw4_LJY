@@ -8,8 +8,8 @@
 <link href="style.css"  rel="stylesheet" type="text/css">
 </head>
 <body>
- <form action = "insert.do" method = "post">
     <h3>생산관리 등록화면</h3>
+ <form action = "view2" method = "post">
     <fieldset >
         <legend>생산관리 등록화면</legend>
         <ul>
@@ -20,9 +20,9 @@
             <li>재고수량    <input type ="text" autofocus required  name = "jnum" ></li>
             <li>출고가      <input type ="text" autofocus required  name = "sale" ></li>
             <li>그룹이름    <select name="gcode">
-                <option  value="A" selected>컴퓨터 </option>
-                <option  value="B" selected>냉장고</option>
-                <option  value="C" selected>냉장소모품</option>
+                <option  value="A" >컴퓨터 </option>
+                <option  value="B" >냉장고</option>
+                <option  value="C" >냉장소모품</option>
             </select></li>
         </ul>
         <button class="my_btn" type="submit"  >등 록</button>

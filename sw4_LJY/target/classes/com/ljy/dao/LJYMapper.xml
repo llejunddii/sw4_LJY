@@ -12,10 +12,12 @@
 	insert into product values (#{code},#{pname},#{cost},#{pnum},#{jnum},#{sale},#{gcode})
 </insert>
 
+
+
 <update id="update">
 	update product
- set pname=#{'수정',cost=13,#{pnum}=10000,#{jnum}=20000,#{sale}=999999
- where #{code}='A06'
+ set pname=#{pname},cost=#{cost},pnum=#{pnum},jnum=#{jnum},sale=#{sale}
+ where code=#{code}
 
 </update>
 

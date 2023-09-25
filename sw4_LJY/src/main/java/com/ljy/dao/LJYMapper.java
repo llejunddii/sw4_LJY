@@ -11,7 +11,7 @@ public interface LJYMapper {
 	void insert(LJYVO vo);
 	
 	// 제품 수정
-	String update(LJYVO vo);
+	int update(LJYVO vo);
 
 	
 }
