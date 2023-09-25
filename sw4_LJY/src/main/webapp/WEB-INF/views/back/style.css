@@ -1,0 +1,12 @@
+.my_btn {
+    
+    background-color: rgba(192, 161, 23, 0.521);
+    color: rgb(29, 23, 23);
+    border: none;
+    box-shadow: 5px 5px 5px #666666;
+    
+    width: 110px;
+    height: 50px;
+    border-style: outset
+  }
+  

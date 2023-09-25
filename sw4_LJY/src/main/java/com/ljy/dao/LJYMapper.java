@@ -4,7 +4,14 @@ import java.util.List;
 
 public interface LJYMapper {
 	
-	// 모든 데이터를 보여주는 메서드
-	List<LJYVO> list();
+	// 데이터 보여주기
+	List<LJYVO> check();
+	
+	// 데이터 넣어주기
+	void insert(LJYVO vo);
+	
+	// 제품 수정
+	String update(LJYVO vo);
+
 	
 }

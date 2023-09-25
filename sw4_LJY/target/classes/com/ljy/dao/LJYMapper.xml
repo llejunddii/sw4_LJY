@@ -4,10 +4,20 @@
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.ljy.dao.LJYMapper">
 
-<select id="list" resultType="com.ljy.dao.LJYVO">
-	select * from product
+<select id="check" resultType="com.ljy.dao.LJYVO">
+	select * from product order by code
 </select>
 
+<insert id="insert">
+	insert into product values (#{code},#{pname},#{cost},#{pnum},#{jnum},#{sale},#{gcode})
+</insert>
+
+<update id="update">
+	update product
+ set pname=#{'수정',cost=13,#{pnum}=10000,#{jnum}=20000,#{sale}=999999
+ where #{code}='A06'
+
+</update>
 
 
 
