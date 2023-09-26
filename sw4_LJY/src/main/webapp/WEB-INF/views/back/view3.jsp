@@ -8,17 +8,17 @@
 <link href="style.css"  rel="stylesheet" type="text/css">
 </head>
 <body>
- <form action = ".do" method = " post">
+ <form action = "#{id}" method = "post">
     <h3>생산관리 조회 & 수정 화면</h3>
     <fieldset>
         <legend>생산관리 조회 화면</legend>
         <ul>
             <li>제품코드    <input type ="text" autofocus required  name = "code" ></li>
-            <li>제품이름    <input type ="text" autofocus required  name = "pname" ></li>
-            <li>제품원가    <input type ="text" autofocus required  name = "cost" ></li>
-            <li>목표수량    <input type ="text" autofocus required  name = "pnum" ></li>
-            <li>재고수량    <input type ="text" autofocus required  name = "jnum" ></li>
-            <li>출고가      <input type ="text" autofocus required  name = "sale" ></li>
+            <li>제품이름    <input type ="text" autofocus name = "pname" ></li>
+            <li>제품원가    <input type ="text" autofocus name = "cost" ></li>
+            <li>목표수량    <input type ="text" autofocus name = "pnum" ></li>
+            <li>재고수량    <input type ="text" autofocus name = "jnum" ></li>
+            <li>출고가     <input type ="text" autofocus name = "sale" ></li>
             <li>그룹이름    <select name="gcode">
                 <option value="A" selected>컴퓨터 </option>
                 <option value="B" selected>냉장고</option>

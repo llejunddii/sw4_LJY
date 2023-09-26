@@ -21,6 +21,11 @@
 
 </update>
 
+<select id="checkNow" resultType="com.ljy.dao.LJYVO">
+	select * from product where code='#{code}'
+
+</select>
+
 
 
 

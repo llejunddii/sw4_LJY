@@ -15,6 +15,9 @@ public interface LJYMapper {
 	
 	// 제품 삭제
 	String delete(LJYVO vo);
+	
+	// 제품 조회
+	String checkNow(String code);
 
 	
 }

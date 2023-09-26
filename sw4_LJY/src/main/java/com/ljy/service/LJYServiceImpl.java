@@ -1,5 +1,6 @@
 package com.ljy.service;
 
+
 import org.springframework.stereotype.Service;
 
 import com.ljy.dao.LJYMapper;
@@ -20,6 +21,13 @@ public class LJYServiceImpl implements LJYService{
 		log.info("등록 서비스 요청!!!!!"+vo);
 		mapper.insert(vo);
 		
+	}
+
+
+	@Override
+	public String checkNow(String code) {
+		
+		return null;
 	}
 
 }

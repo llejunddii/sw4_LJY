@@ -42,6 +42,19 @@ public class LJYController {
 		
 	}
 	
+	// 제품 조회 화면 요청
+	@GetMapping("view3")
+	public void view3() {
+		log.info("조회 화면 get 요청 !!!!!@@!@@!@!@");
+	
+	}
+	
+	// 제품 조회 화면 포스트 요청
+	@PostMapping("view3")
+	public void view3_1(String code) {
+		
+	}
+	
 	
 	
 

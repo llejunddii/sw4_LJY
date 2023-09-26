@@ -59,5 +59,14 @@ public class LJYMapperTest {
 		LJYVO vo = new LJYVO();
 		vo.setCode("A11");
 	}
+	
+	@Test
+	public void testCheckNow() {
+		log.info("조회 매퍼 테스트!!!@@@@####");
+		LJYVO vo = new LJYVO();
+		vo.setCode("A08");
+		//log.info(vo.getCode()+vo.getCost()+vo.getGcode()+vo.getJnum()+vo.getPname()+vo.getPnum()+vo.getSale());
+		log.info(vo);
+	}
 
 }
